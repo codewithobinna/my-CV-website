@@ -1,0 +1,187 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* navigation menu */
+
+.navbar {
+    margin: 20px 10px 50px;
+    /* width: 100%; */
+    overflow: auto;
+    /* position: fixed; */
+}
+
+.navbar a {
+    float: right;
+    padding: 10px;
+    color: #444;
+    text-decoration: none;
+    font-size: 17px;
+    width: 15%;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgb(153, 173, 245);
+}
+
+@media screen and (max-width: 500px) {}
+
+
+/* end of navigation bar */
+
+
+/* hero section */
+
+.hero-image {
+    background-image: url("images/banner2.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 40px;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* extracts from w3schools*/
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+/* end of hero section */
+
+
+/* my skills */
+
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+.container1 {
+    margin: 20px;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {
+    width: 87%;
+    background-color: #4CAF50;
+}
+
+.css {
+    width: 83%;
+    background-color: #2196f3;
+}
+
+.js {
+    width: 55%;
+    background-color: #2196f3;
+}
+
+.php {
+    width: 47%;
+    background-color: #f44336;
+}
+
+.python {
+    width: 33%;
+    background-color: aquamarine;
+}
+
+
+/* section counter */
+
+
+/* float four columns side by side */
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin: 25px;
+}
+
+.row {
+    margin: 10px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+.card {
+    box-shadow: o 4px 8px 0 rgba(0, 0, 0, 2);
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(1, 25, 32);
+    color: white;
+}
+
+.card:hover {
+    background-color: #2196f3;
+}
